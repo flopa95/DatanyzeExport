@@ -40,7 +40,7 @@ cdns = {
 
 
 
-datanyze_url = 'https://api.datanyze.com/alerts/?email=florian.parzhuber@cdnetworks.com&token=25c368f5afa267a1b31870fe8cda3c09&date=' + str(today)
+datanyze_url = 'testurl' + str(today)
 
 url = requests.get(datanyze_url)
 jsons = json.loads(url.text)
